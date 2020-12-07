@@ -25,16 +25,16 @@ Base URL en la API para los vinos es "http://localhost:3000/api/wines", y utiliz
 
   | Path        | Method           | Description  |
   | ------------- | ------------- | ------------- |
-  | `/user-zone/signup` | GET | Muestra el formulario para crear un usuario  |
-  | `/user-zone/signup` | POST | Guarda en la BBDD un usuario  |
-  | `/user-zone/login` | GET | Muestra el formulario para el Login del usuario  |
-  | `/user-zone/login` | POST | Login del usuario a su perfil  |
-  | `/user-zone/logout` | GET | Cierra la sesión del usuario  |
-  | `/user-zone/profile` | GET | Muestra al usuario su perfil  |
-  | `/user-zone/edit?user_id=xxx` | GET | Muestra el formulario para editar el perfil del usuario  |
-  | `/user-zone/edit?user_id=xxx` | POST | Edita en la BBDD el perfil del usuario |
-  | `/user-zone/delete` | GET | Muestra al ADMIN todos los perfiles de usuario |
-  | `/user-zone/delete?user_id=xxx` | POST | Borra de la BBDD un usuario |
+  | `/user/signup` | GET | Muestra el formulario para crear un usuario  |
+  | `/user/signup` | POST | Guarda en la BBDD un usuario  |
+  | `/user/login` | GET | Muestra el formulario para el Login del usuario  |
+  | `/user/login` | POST | Login del usuario a su perfil  |
+  | `/user/logout` | GET | Cierra la sesión del usuario  |
+  | `/user/profile` | GET | Muestra al usuario su perfil  |
+  | `/user/edit?user_id=xxx` | GET | Muestra el formulario para editar el perfil del usuario  |
+  | `/user/edit?user_id=xxx` | POST | Edita en la BBDD el perfil del usuario |
+  | `/user/delete` | GET | Muestra al ADMIN todos los perfiles de usuario |
+  | `/user/delete?user_id=xxx` | POST | Borra de la BBDD un usuario |
   
 
 
