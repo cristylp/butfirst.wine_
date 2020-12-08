@@ -25,9 +25,7 @@ Base URL en la API para los vinos es "http://localhost:3000/api/wines", y utiliz
 
   | Path        | Method           | Description  |
   | ------------- | ------------- | ------------- |
-  | `/signup` | GET | Muestra el formulario para crear un usuario  |
-  | `/signup` | POST | Guarda en la BBDD un usuario  |
-  | `/login` | GET | Muestra el formulario para el Login del usuario  |
+  | `/signup` | POST | Crea en la BBDD un nuevo usuario  |
   | `/login` | POST | Login del usuario a su perfil  |
   | `/logout` | GET | Cierra la sesión del usuario  |
   | `/profile` | GET | Muestra al usuario su perfil  |
