@@ -31,7 +31,6 @@ Base URL en la API para los vinos es "http://localhost:3000/api/wines", y utiliz
   | `/profile` | GET | Muestra al usuario su perfil  |
   | `/edit?user_id=xxx` | GET | Muestra el formulario para editar el perfil del usuario  |
   | `/edit?user_id=xxx` | POST | Edita en la BBDD el perfil del usuario |
-  | `/delete` | GET | Muestra al ADMIN todos los perfiles de usuario |
   | `/delete?user_id=xxx` | POST | Borra de la BBDD un usuario |
   
 
